@@ -283,3 +283,69 @@ footer{
     margin:20px 0 0 0;
     font-size: 24px;
 }
+
+/* Aplicación Resposive - Multiples dispositivos */
+
+@media screen and (max-width: 900px){
+    header{
+        background-position: center;
+    }
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .sobre-nosotros .contenido-texto{
+        width: 90%;
+    }
+
+    .image-about-us{
+        width: 90%;
+    }
+
+    /*Galeria*/
+
+    .imagen-port{
+        width: 90%;
+    }
+
+    /* Clientes */
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{
+        width: 90%;
+    }   
+
+    /* .cards .card:first-child{
+        margin-bottom: 30px;
+    } */
+
+    .cards .card{
+        margin-bottom: 30px;
+    }
+
+    /* Servicios contenedor */
+    .servicio-cont{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicio-ind{
+        width: 90%;
+        text-align: center;
+    }   
+
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .servicio-ind img{
+        width: 50%;
+    }
+}
