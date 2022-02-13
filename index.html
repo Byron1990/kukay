@@ -179,6 +179,29 @@
         </div>
         <h2 class="título-final">&copy; Byron Mena | www.linkedin.com/in/byron-mena </h2>
     </footer>
-</body>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyD-I3uR_caF6XL-bRPnLvm79XGb1rlbRfw",
+        authDomain: "kukay-92d92.firebaseapp.com",
+        projectId: "kukay-92d92",
+        storageBucket: "kukay-92d92.appspot.com",
+        messagingSenderId: "1012176078171",
+        appId: "1:1012176078171:web:cf06f8db6aa77aa044067e",
+        measurementId: "G-898R49C15L"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
 
 </html>
